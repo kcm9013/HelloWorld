@@ -7,7 +7,7 @@ constexpr int fac(int n) {
 	return n > 1 ? n * fac(n - 1) : 1;
 }
 
-int main()
+int main(int argc, char* argv[])
 {
 	unsigned int x = 2999999999;
 	cout << " x = " << x << endl;
